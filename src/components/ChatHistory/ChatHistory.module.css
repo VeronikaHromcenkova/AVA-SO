@@ -1,0 +1,97 @@
+.container {
+  background-color: var(--history-background);
+}
+
+.header {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.moreButton {
+  background-color: transparent;
+  padding: 0;
+}
+
+.itemCell {
+  max-width: 270px;
+  min-height: 32px;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  margin: 3px 0;
+}
+
+.itemCell:hover {
+  background: #e6e6e6;
+}
+
+.itemButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  margin: auto 2.5px;
+  cursor: pointer;
+}
+
+.itemButton:hover {
+  background-color: transparent;
+  transform: scale(1.15);
+}
+
+.itemButton:disabled {
+  background-color: transparent;
+}
+
+.chatGroup {
+  margin: auto 5px;
+  width: 100%;
+}
+
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.chatList {
+  width: 100%;
+}
+
+.chatMonth {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  padding-left: 15px;
+}
+
+.chatTitle {
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 28px;
+}
+
+.errorColor {
+  color: var(--red);
+}
+
+.errorColor:hover {
+  color: var(--red);
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}

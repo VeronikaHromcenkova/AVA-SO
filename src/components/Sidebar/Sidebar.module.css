@@ -1,0 +1,44 @@
+.sidebar {
+  position: fixed;
+  right: 0;
+  width: 300px;
+  background-color: var(--sidebar-background);
+  height: var(--sidebar-height);
+  transition-duration: 300ms;
+  overflow: hidden auto;
+  padding: 16px 10px 30px 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.closed {
+  right: -300px;
+  visibility: hidden;
+}
+
+.opened {
+  right: 0;
+}
+
+.button {
+  width: 100%;
+  min-height: 32px;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  border: 0px;
+  align-items: center;
+  background-color: transparent;
+}
+
+.button:hover {
+  background: #e6e6e6;
+}
+
+.buttonIcon {
+  margin-right: 10px;
+}

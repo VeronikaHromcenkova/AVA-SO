@@ -1,0 +1,37 @@
+.stopGeneratingContainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 16px;
+  gap: 4px;
+  position: absolute;
+  width: 161px;
+  height: 32px;
+  left: calc(50% - 161px / 2);
+  bottom: 116px;
+  border: 1px solid var(--arvato-blue);
+  border-radius: 16px;
+  background-color: transparent;
+  color: var(--arvato-blue);
+}
+
+.stopGeneratingIcon {
+  width: 14px;
+  height: 14px;
+  color: var(--arvato-blue);
+}
+
+.stopGeneratingText {
+  height: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

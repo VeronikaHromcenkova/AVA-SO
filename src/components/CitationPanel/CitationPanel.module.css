@@ -1,0 +1,27 @@
+.citationPanelTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323130;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+.citationPanelTitle:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.citationPanelContent {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

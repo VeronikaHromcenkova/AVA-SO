@@ -1,0 +1,45 @@
+.chatMessageUser {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.chatMessageUserMessage {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  background: var(--user-message-background);
+  box-shadow: var(--message-box-shadow);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  order: 0;
+  flex-grow: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 80%;
+}
+
+.uploadedImageChat {
+  max-width: 80%;
+  max-height: 250px;
+  border-radius: 8px;
+}
+
+.chatMessageGpt {
+  margin-bottom: 12px;
+  max-width: 80%;
+  display: flex;
+}
+
+@media (min-width: 400px) {
+  .uploadedImageChat {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

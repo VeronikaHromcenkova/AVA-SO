@@ -1,0 +1,43 @@
+.chatEmptyState {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.chatEmptyStateTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.chatEmptyStateSubtitle {
+  margin-top: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #616161;
+}
+
+.chatIcon {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+@media (min-width: 480px) {
+  .chatEmptyStateTitle {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .chatEmptyStateSubtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

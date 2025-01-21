@@ -1,0 +1,27 @@
+.exectResultList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 12px;
+}
+
+.exectResultList:first-child {
+  margin-top: 0;
+}
+
+.exectResultList:last-child {
+  border-bottom: none;
+}
+
+.exectResultList > p {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.exectResultList > span {
+  font-weight: 600;
+}

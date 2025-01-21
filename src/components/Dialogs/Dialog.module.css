@@ -1,0 +1,40 @@
+.dialog {
+  max-width: 600px;
+}
+.copyButton {
+  color: #424242;
+  cursor: pointer;
+}
+
+.copyButton:hover {
+  transform: scale(1.1);
+}
+.copyButton:focus {
+  outline: none;
+}
+
+.urlTextBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #d1d1d1;
+  border-radius: 25px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.urlInput {
+  cursor: pointer;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.urlInput:focus {
+  outline: none;
+}
+
+.acceptIcon {
+  color: green;
+}
